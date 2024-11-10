@@ -1,0 +1,17 @@
+.rated{
+height: 50px;
+width: auto;
+background-color: #6a737942;
+border-radius: 6px;
+display: flex;
+align-items: center;
+padding-inline: 30px;
+color: #fff;
+font-weight: 600;
+font-size: 1rem;
+
+}
+.ratedFullImg{
+height: 30px;
+width: 20px;
+}

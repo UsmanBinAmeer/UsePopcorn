@@ -1,0 +1,71 @@
+.watchedMovies{
+width: 100%;
+border-radius: 10px;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.356);
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+height: auto;
+}
+.h2 h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.movies{
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+
+}
+.icon,.rateIcon,.brightRateIcon{
+    height: 40px;
+}
+.icon img{
+    height: 100%;
+    /* width: 40px; */
+}
+.rateIcon img{
+    height: 100%;
+}
+.brightRate{
+    display: flex;
+    gap: 5px
+    ;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.brightRateIcon img{
+    height: 100%;
+}
+.movies p{
+    font-size: 1.2rem;
+}
+.data{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.rate{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+@media(min-width:767px) and (max-width: 1025px){
+    .watchedMovies{
+        height: 10vh;
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+      }

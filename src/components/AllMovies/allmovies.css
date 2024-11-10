@@ -1,0 +1,27 @@
+.allMovies{
+    width: 50%;
+    max-height: 100%;
+    background-color: #24292c;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.loader{
+    margin-block: 50px;
+    height: 50px;
+    width: 50px;
+}
+@media(min-width:767px) and (max-width: 1025px){
+  .allMovies{
+    width: 40%;
+    border-radius: 0px;
+  }
+    }
+@media(max-width: 540px){
+  .allMovies{
+    width: 100%;
+    border-radius: 0px;
+  }
+    }

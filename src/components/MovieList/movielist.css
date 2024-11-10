@@ -1,0 +1,68 @@
+.movieList{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.082);
+}
+.cutOverlay{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 10%;
+    right: 10px;
+    height: 100%;
+}
+.x{
+    font-size: 12px;
+    border-radius: 50%;
+    /* padding: 5px 8px; */
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    color: black;
+    font-weight: 500;
+    background-color: #e94c4a;
+}
+.movieListImg{
+    height: 60px;
+    width: 40px;
+
+}
+.movieListImg img{
+    height:100% ;
+    width: 100%;
+}
+.movieListIcons{
+    height: 45px;
+    width: 30px;
+}
+.movieListText{
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.movieListDetails{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    /* justify-content:; */
+
+}
+.movieListDetailChilds{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.562);
+}
+.movieListTitle h2{
+    font-size: 1rem;
+}

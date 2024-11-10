@@ -1,0 +1,46 @@
+.movie{
+    padding-block: 25px;
+    padding-inline: 30px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+    display: flex;
+    gap: 20px;
+}
+.movie:hover{
+    cursor: pointer;
+    background-color: #6a7379;
+}
+.poster{
+    width: 10%;
+    height: 60px;
+}
+.poster img{
+    height: 100%;
+    width: 100%;
+}
+.movieText{
+    width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+font-weight: 600;
+gap: 5px;
+}
+.title h2{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.others{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.iconcalender{
+height: 20px;
+width: 20px;
+}
+.iconcalender img{
+    height: 100%;
+    width: 100%;
+}
